@@ -17,7 +17,6 @@
 		AE94C6AE16E5EA0C00F00E66 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AE94C6AC16E5EA0C00F00E66 /* Credits.rtf */; };
 		AE94C6B116E5EA0C00F00E66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE94C6B016E5EA0C00F00E66 /* AppDelegate.m */; };
 		AE94C6B416E5EA0C00F00E66 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE94C6B216E5EA0C00F00E66 /* MainMenu.xib */; };
-		AEB14FE716E766A8008E6683 /* DigitalChinaSupplicant.icns in Resources */ = {isa = PBXBuildFile; fileRef = AEB14FE616E766A8008E6683 /* DigitalChinaSupplicant.icns */; };
 		AEEF28B416EAE24000C4DF78 /* repairClient.sh in Resources */ = {isa = PBXBuildFile; fileRef = AEEF28B316EAE24000C4DF78 /* repairClient.sh */; };
 		AEEF28B616EAE2A800C4DF78 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEF28B516EAE2A800C4DF78 /* Security.framework */; };
 /* End PBXBuildFile section */
@@ -52,7 +51,6 @@
 		AE94C6AF16E5EA0C00F00E66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE94C6B016E5EA0C00F00E66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AE94C6B316E5EA0C00F00E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		AEB14FE616E766A8008E6683 /* DigitalChinaSupplicant.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DigitalChinaSupplicant.icns; sourceTree = "<group>"; };
 		AEEF28B316EAE24000C4DF78 /* repairClient.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = repairClient.sh; sourceTree = "<group>"; };
 		AEEF28B516EAE2A800C4DF78 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -74,7 +72,6 @@
 		AE94C69116E5EA0B00F00E66 = {
 			isa = PBXGroup;
 			children = (
-				AEB14FE616E766A8008E6683 /* DigitalChinaSupplicant.icns */,
 				AE94C6A316E5EA0C00F00E66 /* DigitalChinaSupplicant */,
 				AE94C69C16E5EA0C00F00E66 /* Frameworks */,
 				AE94C69B16E5EA0C00F00E66 /* Products */,
@@ -193,7 +190,6 @@
 				54C6B4E218733A73006117DA /* Images.xcassets in Resources */,
 				AE94C6AE16E5EA0C00F00E66 /* Credits.rtf in Resources */,
 				AE94C6B416E5EA0C00F00E66 /* MainMenu.xib in Resources */,
-				AEB14FE716E766A8008E6683 /* DigitalChinaSupplicant.icns in Resources */,
 				AEEF28B416EAE24000C4DF78 /* repairClient.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
