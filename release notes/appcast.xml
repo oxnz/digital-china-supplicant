@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>DigitalChinaSupplicant Appcast</title>
+    <link>http://digital-china-supplicant.googlecode.com/git/appcast.xml</link>
+    <description>Most recent version available.</description>
+    <language>en</language>
+    <pubDate>Mon, 18 Feb 2013 10:00:00 -0400</pubDate>
+    
+    <item>
+	<title>DigitalChinaSupplicant 1.12</title>
+      	<sparkle:releaseNotesLink>http://digital-china-supplicant.googlecode.com/git/1.12.html</sparkle:releaseNotesLink>
+	<pubDate>Thu, 09 March 2013 02:00:00 -0400</pubDate>
+	<enclosure
+	url="http://digital-china-supplicant.googlecode.com/files/DigitalChinaSupplicant-1.12.zip"
+	sparkle:version="2"
+	sparkle:shortVersionString="1.1"
+	sparkle:dsaSignature="MC0CFQCIuq7AhjyKnjRJktXXsAgVIQHaHgIUIbNrFxVC9CAQF3gDmsvLBM3HAe8="
+	type="application/octet-stream"/>
+	<sparkle:minimumSystemVersion>10.5.0</sparkle:minimumSystemVersion>
+	</item>
+	<item>
+      	<title>DigitalChinaSupplicant 1.11</title>
+      	<sparkle:releaseNotesLink>http://digital-china-supplicant.googlecode.com/git/1.11.html</sparkle:releaseNotesLink>
+      	<pubDate>Thu, 04 March 2013 20:00:00 -0400</pubDate>
+      	<enclosure
+	url="http://digital-china-supplicant.googlecode.com/files/DigitalChinaSupplicant-1.11.zip"
+      	sparkle:version="1"
+      	sparkle:shortVersionString="1.1"
+	sparkle:dsaSignature="MC0CFEARV3n8w3OSvhJe2dFGYN3cj1twAhUAlI3nl46SEvvJLYyKW6Ze6f2TyM4="
+      	type="application/octet-stream"/>
+      	<sparkle:minimumSystemVersion>10.5.0</sparkle:minimumSystemVersion>
+    </item>
+    
+  </channel>
+</rss>

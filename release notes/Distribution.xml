@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<installer-gui-script minSpecVersion="1">
+	<title>DigitalChinaSupplicant</title>
+	<welcome file="welcome.html" mime-type="text/html" />
+	<license file="license.html" mime-type="text/html" />
+	<readme file="readme.html" mime-type="text/html" />
+    <pkg-ref id="com.Yaosa.DigitalChinaSupplicant"/>
+    <options customize="never" require-scripts="false" rootVolumeOnly="true" />
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.Yaosa.DigitalChinaSupplicant"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.Yaosa.DigitalChinaSupplicant" visible="false">
+        <pkg-ref id="com.Yaosa.DigitalChinaSupplicant"/>
+    </choice>
+    <pkg-ref id="com.Yaosa.DigitalChinaSupplicant" version="1.1.0" onConclusion="none">DigitalChinaSupplicant.pkg</pkg-ref>
+</installer-gui-script>

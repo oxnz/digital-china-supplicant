@@ -1,0 +1,10 @@
+#!/bin/sh
+
+clientSRC="/Applications/DigitalChinaSupplicant.app/Contents/Resources/dcclient"
+clientDST="/usr/local/bin/dcclient"
+if [ -e "$clientSRC" ]
+then
+	cp "$clientSRC" "$clientDST"
+	chown -R root:wheel "$clientDST"
+	chmod +s "$clientDST"
+fi
