@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE47246316E65036005CB9A9 /* sparkle_dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = AE47246216E65036005CB9A9 /* sparkle_dsa_pub.pem */; };
-		AE8423D716E9D78200C83714 /* dcclient in Resources */ = {isa = PBXBuildFile; fileRef = AE99963616E6423C00C655C2 /* dcclient */; };
+		54C6B4E218733A73006117DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C6B4E118733A73006117DA /* Images.xcassets */; };
+		54C6B4E818733E68006117DA /* sparkle_dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 54C6B4E718733E68006117DA /* sparkle_dsa_pub.pem */; };
+		54C6B50E187344B6006117DA /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C6B50D187344B5006117DA /* Sparkle.framework */; };
+		54C6B50F187344CB006117DA /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54C6B50D187344B5006117DA /* Sparkle.framework */; };
 		AE94C69E16E5EA0C00F00E66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE94C69D16E5EA0C00F00E66 /* Cocoa.framework */; };
 		AE94C6A816E5EA0C00F00E66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE94C6A616E5EA0C00F00E66 /* InfoPlist.strings */; };
 		AE94C6AA16E5EA0C00F00E66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE94C6A916E5EA0C00F00E66 /* main.m */; };
 		AE94C6AE16E5EA0C00F00E66 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AE94C6AC16E5EA0C00F00E66 /* Credits.rtf */; };
 		AE94C6B116E5EA0C00F00E66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE94C6B016E5EA0C00F00E66 /* AppDelegate.m */; };
 		AE94C6B416E5EA0C00F00E66 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE94C6B216E5EA0C00F00E66 /* MainMenu.xib */; };
-		AE99963516E641D500C655C2 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE99963416E641D500C655C2 /* Sparkle.framework */; };
-		AE99963916E6428B00C655C2 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE99963416E641D500C655C2 /* Sparkle.framework */; };
 		AEB14FE716E766A8008E6683 /* DigitalChinaSupplicant.icns in Resources */ = {isa = PBXBuildFile; fileRef = AEB14FE616E766A8008E6683 /* DigitalChinaSupplicant.icns */; };
 		AEEF28B416EAE24000C4DF78 /* repairClient.sh in Resources */ = {isa = PBXBuildFile; fileRef = AEEF28B316EAE24000C4DF78 /* repairClient.sh */; };
 		AEEF28B616EAE2A800C4DF78 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEF28B516EAE2A800C4DF78 /* Security.framework */; };
@@ -25,18 +25,20 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		AE94C6BA16E5FA9400F00E66 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AE99963916E6428B00C655C2 /* Sparkle.framework in CopyFiles */,
+				54C6B50F187344CB006117DA /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AE47246216E65036005CB9A9 /* sparkle_dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sparkle_dsa_pub.pem; sourceTree = "<group>"; };
+		54C6B4E118733A73006117DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54C6B4E718733E68006117DA /* sparkle_dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sparkle_dsa_pub.pem; sourceTree = "<group>"; };
+		54C6B50D187344B5006117DA /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		AE94C69A16E5EA0C00F00E66 /* DigitalChinaSupplicant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalChinaSupplicant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE94C69D16E5EA0C00F00E66 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		AE94C6A016E5EA0C00F00E66 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,8 +52,6 @@
 		AE94C6AF16E5EA0C00F00E66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE94C6B016E5EA0C00F00E66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AE94C6B316E5EA0C00F00E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		AE99963416E641D500C655C2 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		AE99963616E6423C00C655C2 /* dcclient */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dcclient; sourceTree = "<group>"; };
 		AEB14FE616E766A8008E6683 /* DigitalChinaSupplicant.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DigitalChinaSupplicant.icns; sourceTree = "<group>"; };
 		AEEF28B316EAE24000C4DF78 /* repairClient.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = repairClient.sh; sourceTree = "<group>"; };
 		AEEF28B516EAE2A800C4DF78 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEEF28B616EAE2A800C4DF78 /* Security.framework in Frameworks */,
+				54C6B50E187344B6006117DA /* Sparkle.framework in Frameworks */,
 				AE94C69E16E5EA0C00F00E66 /* Cocoa.framework in Frameworks */,
-				AE99963516E641D500C655C2 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +92,8 @@
 		AE94C69C16E5EA0C00F00E66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54C6B50D187344B5006117DA /* Sparkle.framework */,
 				AEEF28B516EAE2A800C4DF78 /* Security.framework */,
-				AE99963416E641D500C655C2 /* Sparkle.framework */,
 				AE94C69D16E5EA0C00F00E66 /* Cocoa.framework */,
 				AE94C69F16E5EA0C00F00E66 /* Other Frameworks */,
 			);
@@ -116,6 +116,7 @@
 				AE94C6AF16E5EA0C00F00E66 /* AppDelegate.h */,
 				AE94C6B016E5EA0C00F00E66 /* AppDelegate.m */,
 				AE94C6B216E5EA0C00F00E66 /* MainMenu.xib */,
+				54C6B4E118733A73006117DA /* Images.xcassets */,
 				AE94C6A416E5EA0C00F00E66 /* Supporting Files */,
 			);
 			path = DigitalChinaSupplicant;
@@ -124,8 +125,7 @@
 		AE94C6A416E5EA0C00F00E66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE47246216E65036005CB9A9 /* sparkle_dsa_pub.pem */,
-				AE99963616E6423C00C655C2 /* dcclient */,
+				54C6B4E718733E68006117DA /* sparkle_dsa_pub.pem */,
 				AE94C6A516E5EA0C00F00E66 /* DigitalChinaSupplicant-Info.plist */,
 				AE94C6A616E5EA0C00F00E66 /* InfoPlist.strings */,
 				AE94C6A916E5EA0C00F00E66 /* main.m */,
@@ -163,7 +163,7 @@
 		AE94C69216E5EA0B00F00E66 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "云心逸";
 			};
 			buildConfigurationList = AE94C69516E5EA0B00F00E66 /* Build configuration list for PBXProject "DigitalChinaSupplicant" */;
@@ -188,12 +188,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54C6B4E818733E68006117DA /* sparkle_dsa_pub.pem in Resources */,
 				AE94C6A816E5EA0C00F00E66 /* InfoPlist.strings in Resources */,
+				54C6B4E218733A73006117DA /* Images.xcassets in Resources */,
 				AE94C6AE16E5EA0C00F00E66 /* Credits.rtf in Resources */,
 				AE94C6B416E5EA0C00F00E66 /* MainMenu.xib in Resources */,
-				AE47246316E65036005CB9A9 /* sparkle_dsa_pub.pem in Resources */,
 				AEB14FE716E766A8008E6683 /* DigitalChinaSupplicant.icns in Resources */,
-				AE8423D716E9D78200C83714 /* dcclient in Resources */,
 				AEEF28B416EAE24000C4DF78 /* repairClient.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,7 +244,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -253,6 +252,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -276,7 +276,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -286,6 +285,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -300,11 +300,12 @@
 		AE94C6B816E5EA0C00F00E66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"/Users/oxnz/Developer/digital-china-supplicant/DigitalChinaSupplicant",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DigitalChinaSupplicant/DigitalChinaSupplicant-Prefix.pch";
@@ -317,11 +318,12 @@
 		AE94C6B916E5EA0C00F00E66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"/Users/oxnz/Developer/digital-china-supplicant/DigitalChinaSupplicant",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DigitalChinaSupplicant/DigitalChinaSupplicant-Prefix.pch";

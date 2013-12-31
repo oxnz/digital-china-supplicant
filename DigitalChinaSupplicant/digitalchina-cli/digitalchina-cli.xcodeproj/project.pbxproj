@@ -1,0 +1,154 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		54C6B4FC18733FBF006117DA /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		54C6B4FD18733FBF006117DA /* dcclient.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = dcclient.1; sourceTree = "<group>"; };
+		54C6B4FE18733FBF006117DA /* dcclient.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dcclient.c; sourceTree = "<group>"; };
+		54C6B4FF18733FBF006117DA /* dcclient.conf */ = {isa = PBXFileReference; lastKnownFileType = text; path = dcclient.conf; sourceTree = "<group>"; };
+		54C6B50018733FBF006117DA /* dcclient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dcclient.h; sourceTree = "<group>"; };
+		54C6B50118733FBF006117DA /* install */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install; sourceTree = "<group>"; };
+		54C6B50218733FBF006117DA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		54C6B50318733FBF006117DA /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		54C6B50418733FBF006117DA /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		54C6B50518733FBF006117DA /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		54C6B4F618733FBF006117DA = {
+			isa = PBXGroup;
+			children = (
+				54C6B4FC18733FBF006117DA /* .DS_Store */,
+				54C6B4FD18733FBF006117DA /* dcclient.1 */,
+				54C6B4FE18733FBF006117DA /* dcclient.c */,
+				54C6B4FF18733FBF006117DA /* dcclient.conf */,
+				54C6B50018733FBF006117DA /* dcclient.h */,
+				54C6B50118733FBF006117DA /* install */,
+				54C6B50218733FBF006117DA /* main.c */,
+				54C6B50318733FBF006117DA /* Makefile */,
+				54C6B50418733FBF006117DA /* readme.md */,
+				54C6B50518733FBF006117DA /* Readme.txt */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		54C6B4FB18733FBF006117DA /* digitalchina-cli */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 54C6B50618733FBF006117DA /* Build configuration list for PBXLegacyTarget "digitalchina-cli" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/oxnz/Developer/digital-china-supplicant/DigitalChinaSupplicant/digitalchina-cli";
+			dependencies = (
+			);
+			name = "digitalchina-cli";
+			passBuildSettingsInEnvironment = 1;
+			productName = "digitalchina-cli";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		54C6B4F718733FBF006117DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 54C6B4FA18733FBF006117DA /* Build configuration list for PBXProject "digitalchina-cli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54C6B4F618733FBF006117DA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C6B4FB18733FBF006117DA /* digitalchina-cli */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		54C6B4F818733FBF006117DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		54C6B4F918733FBF006117DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		54C6B50718733FBF006117DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "digitalchina-cli";
+			};
+			name = Debug;
+		};
+		54C6B50818733FBF006117DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "digitalchina-cli";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C6B4FA18733FBF006117DA /* Build configuration list for PBXProject "digitalchina-cli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C6B4F818733FBF006117DA /* Debug */,
+				54C6B4F918733FBF006117DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C6B50618733FBF006117DA /* Build configuration list for PBXLegacyTarget "digitalchina-cli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C6B50718733FBF006117DA /* Debug */,
+				54C6B50818733FBF006117DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54C6B4F718733FBF006117DA /* Project object */;
+}

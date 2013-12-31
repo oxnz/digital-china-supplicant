@@ -35,8 +35,8 @@
 
     const char *bannerHtml = "<html><meta http-equiv=Content-Type content=text/html; charset=UTF8>"
     "<h1 align=center>神州数码客户端</h1>"
-    "<ul><li>意见反馈: <a href=mailto:yunxinyi@gmail.com>yunxinyi@gmail.com</a></li>"
-    "<li>项目主页: <a href=code.google.com/p/digital-china-supplicant>code.google.com/p/digital-china-supplicant</a></li></ul>"
+    "意见反馈: <a href=mailto:yunxinyi@gmail.com>yunxinyi@gmail.com</a><br />"
+    "项目主页: <a href=https://github.com/oxnz/digital-china-supplicant>https://github.com/oxnz/digital-china-supplicant</a>"
     "</html>";
     NSAttributedString *banner = [[NSAttributedString alloc] initWithHTML:[NSData dataWithBytes:bannerHtml length:strlen(bannerHtml)] documentAttributes:NULL];
     //[logTV setAlignment:NSCenterTextAlignment];
