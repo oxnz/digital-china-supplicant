@@ -1,0 +1,5 @@
+#!/bin/sh
+
+clientDST="/usr/local/bin/dcclient"
+[ -e "$clientDST" ] && chown -R root:root "$clientDST" && chmod +s "$clientDST"
+return $?

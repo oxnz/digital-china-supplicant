@@ -1,0 +1,9 @@
+Package: dcclient
+Version: 1.12
+Architecture: i386
+Maintainer: Yun Xinyi <yunxinyi@gmail.com>
+Installed-Size: 0.62M
+Depends: libpcap0.8
+Priority: optional
+Homepage: http://code.google.com/p/digital-china-supplicant
+Description: A simple supplicant for DigitalChina (c)
