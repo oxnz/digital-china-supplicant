@@ -17,7 +17,7 @@
     [super dealloc];
 }
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+- (void)applicationDidFinishLaunching:(NSNotification *)notification
 {
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     if ((username = [userDefaults stringForKey:@"username"]) != Nil) {
@@ -63,7 +63,8 @@
     err = AuthorizationExecuteWithPrivileges(auth, [repairPath UTF8String], kAuthorizationFlagDefaults, args, NULL);
     AuthorizationFree(auth, kAuthorizationFlagDefaults);
     if (err != errAuthorizationSuccess) {
-        [logTV insertText:@"authorization failed to repair client\n"];
+        [[logTV textStorage] appendAttributedString: [[NSAttributedString alloc] initWithString:   @"authorization failed to repair client\n"
+                                                                                      attributes: @{NSForegroundColorAttributeName: [NSColor redColor]}]];
         return -2;
     }
     return 0;
@@ -173,14 +174,22 @@
         NSArray *args = [NSArray arrayWithObjects:
                          @"-u", username, @"-p", password,
                          @"--ver", version, @"--device", device, @"-b", @"--dhcp", nil];
-        [logTV insertText:@"开始认证 ...\n"];
+        [[logTV textStorage] appendAttributedString: [[NSAttributedString alloc] initWithString: @"开始认证 ..."
+    attributes: @{
+                  NSForegroundColorAttributeName: [NSColor greenColor]
+                  }]];
+        [[logTV textStorage] appendAttributedString: [[NSAttributedString alloc] initWithString: @"\n"
+                                         attributes: @{NSForegroundColorAttributeName: [NSColor blackColor]}]];
         [self ExecClientWithArgs:args];
     }
 }
 
 - (IBAction)Logoff:(id)sender {
     NSArray *args = [NSArray arrayWithObject:@"-l"];
-    [logTV insertText:@"断开连接 ...\n"];
+    [[logTV textStorage] appendAttributedString: [[NSAttributedString alloc] initWithString: @"断开连接 ..."
+                                                                                 attributes: @{NSForegroundColorAttributeName:  [NSColor redColor]}]];
+    [[logTV textStorage] appendAttributedString: [[NSAttributedString alloc] initWithString: @"\n"
+                                                                                   attributes: @{NSForegroundColorAttributeName: [NSColor blackColor]}]];
     [self ExecClientWithArgs: args];
 }
 
